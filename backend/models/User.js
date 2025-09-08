@@ -57,6 +57,13 @@ const userSchema = new mongoose.Schema({
   address: {
     type: addressSchema,
     required: [true, 'Address is required']
+  },
+  confirmation: {
+    type: String,
+    required: [true, 'Confirmation is required'],
+    trim: true,
+    minlength: [2, 'Confirmation must be at least 2 characters long'],
+    maxlength: [100, 'Confirmation cannot exceed 100 characters']
   }
 }, {
   timestamps: true
