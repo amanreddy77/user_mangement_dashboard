@@ -345,6 +345,9 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
+**Aman Reddy**  
+Portfolio: [https://portfolio-aman-gamma.vercel.app/](https://portfolio-aman-gamma.vercel.app/)
+
 Created as a Full-Stack Developer Intern Assignment.
 
 ## 📞 Support
